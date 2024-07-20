@@ -3,8 +3,6 @@
  * @author João Vitor
  **/
 
-
-
 import java.util.Scanner;
 
 public class ContaTerminal {
