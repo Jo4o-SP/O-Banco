@@ -1,3 +1,10 @@
+/** Atividade repassada pela DIO.
+ * @version 1.0
+ * @author João Vitor
+ **/
+
+
+
 import java.util.Scanner;
 
 public class ContaTerminal {
