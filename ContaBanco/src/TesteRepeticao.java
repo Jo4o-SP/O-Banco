@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /* Teste de repetições
  * Repetição em For
  * Repetição em While
@@ -27,5 +29,14 @@ public class TesteRepeticao {
             }
             System.out.println(pensao);
         }*/
+        //While e Scanner
+        Scanner sc = new Scanner(System.in);
+
+        Double pensao = 768.9;
+        while (pensao <= 768.9) {
+            System.out.print("Digite o valor para ser depositado: ");
+            pensao = sc.nextDouble();
+        }
+        System.out.println("Valor total depositadi da pensão: " +pensao);
     }
 }
